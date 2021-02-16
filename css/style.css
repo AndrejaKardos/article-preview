@@ -22,6 +22,17 @@
         border-radius: 10px;
     }
 
+    .container__image {
+        overflow: hidden;
+        height: 215px;
+    }
+
+    .image__drawers {
+        width: 86vw;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
     /* FOOTER */
 
     .attribution { 
