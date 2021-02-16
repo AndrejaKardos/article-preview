@@ -2,9 +2,24 @@
 
 @media only screen and (max-width: 375px) {
     body {
-        background-color: hsl(210, 46%, 95%);
-        font-size: 13px;
+        background-color: hsl(210, 32%, 90%);
         font-family: 'Comfortaa', Arial, sans-serif;
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        height: 100vh;
+    }
+
+    .container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 86vw;
+        height: 65vh;
+        border-radius: 10px;
     }
 
     /* FOOTER */
