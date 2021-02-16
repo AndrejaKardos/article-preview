@@ -39,11 +39,26 @@
         border-top-right-radius: 10px;
     }
 
+    /* TEXT SECTION */
+
+    .container__header {
+        font-weight: 700;
+        color: hsl(217, 19%, 35%);
+        font-size: 17px;
+    }
+
+    .container__text {
+        font-weight: 500;
+        color: hsl(212, 18%, 56%);
+        font-size: 13px;
+    }
+
     /* FOOTER SECTION */
 
     .container__footer {
         display: flex; 
         flex-direction: row;
+        justify-content: center;
     }
 
     .container__footer--info {
