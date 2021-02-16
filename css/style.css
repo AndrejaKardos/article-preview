@@ -3,7 +3,7 @@
 @media only screen and (max-width: 375px) {
     body {
         background-color: hsl(210, 32%, 90%);
-        font-family: 'Comfortaa', Arial, sans-serif;
+        font-family: 'Comfortaa';
         font-size: 13px;
         display: flex;
         flex-direction: column;
@@ -41,16 +41,26 @@
 
     /* TEXT SECTION */
 
-    .container__header {
-        font-weight: 700;
-        color: hsl(217, 19%, 35%);
-        font-size: 17px;
+    .container__text {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-self: center;
+        border: 1px solid red;
     }
 
-    .container__text {
+    .container__text--top {
+        font-weight: 700;
+        color: hsl(217, 19%, 35%);
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .container__text--bottom {
         font-weight: 500;
         color: hsl(212, 18%, 56%);
         font-size: 13px;
+        line-height: 25px;
     }
 
     /* FOOTER SECTION */
@@ -64,6 +74,15 @@
     .container__footer--info {
         display: flex;
         flex-direction: column;
+    }
+
+    .footer__name {
+        color: hsl(217, 19%, 35%);
+        font-weight: 700;
+    }
+
+    .footer__date {
+        color: hsl(212, 24%, 74%);
     }
 
     /* ATTRIBUTION */
