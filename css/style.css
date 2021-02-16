@@ -1,10 +1,20 @@
-/* FOOTER */
+/* MOBILE DISPLAY */
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: hsl(210, 46%, 95%);
+        font-size: 13px;
+    }
+
+    /* FOOTER */
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
 }
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
