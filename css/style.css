@@ -24,10 +24,12 @@
 
     .container__image {
         overflow: hidden;
-        height: 215px;
+        height: 200px;
     }
 
     .image__drawers {
+        position: relative;
+        bottom: 15px;
         width: 86vw;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
