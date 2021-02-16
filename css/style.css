@@ -22,9 +22,13 @@
         border-radius: 10px;
     }
 
+    /* HEADER SECTION */
+
     .container__image {
         overflow: hidden;
         height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 
     .image__drawers {
@@ -35,7 +39,19 @@
         border-top-right-radius: 10px;
     }
 
-    /* FOOTER */
+    /* FOOTER SECTION */
+
+    .container__footer {
+        display: flex; 
+        flex-direction: row;
+    }
+
+    .container__footer--info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ATTRIBUTION */
 
     .attribution { 
         font-size: 11px; 
