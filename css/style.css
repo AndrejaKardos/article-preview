@@ -88,6 +88,8 @@
     /* ATTRIBUTION */
 
     .attribution { 
+        position: absolute;
+        bottom: 15px;
         font-size: 11px; 
         text-align: center; 
     }
