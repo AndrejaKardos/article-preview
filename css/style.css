@@ -3,7 +3,7 @@
 @media only screen and (max-width: 375px) {
     body {
         background-color: hsl(210, 32%, 90%);
-        font-family: 'Comfortaa';
+        font-family: 'Comfortaa', sans-serif;
         font-size: 13px;
         display: flex;
         flex-direction: column;
@@ -100,8 +100,10 @@
     }
 
     .footer__name {
+        position: relative;
+        bottom: 5px;
         color: hsl(217, 19%, 35%);
-        font-weight: 700;
+        font-weight: 800;
     }
 
     .footer__date {
