@@ -68,6 +68,10 @@
 
     /* FOOTER SECTION */
 
+    .hide {
+        display: none;
+    }
+
     .container__footer {
         position: relative;
         top: 5px;
@@ -124,6 +128,23 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
+    }
+
+    /* ACTIVATED SHARE SECTION */
+
+    .share {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .share__social-media {
+        border: 1px solid green;
+    }
+
+    #share__social-media--facebook, 
+    #share__social-media--twitter,
+    #share__social-media--pinterest {
+        color: white;
     }
 
     /* ATTRIBUTION */

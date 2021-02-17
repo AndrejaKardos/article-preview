@@ -7,10 +7,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Article preview component</title>
-
-  <link rel="stylesheet" href="/css/style.css">
   <link href='fonts.googleapis.com/css?family=Comfortaa:500,700'; rel='stylesheet' type='text/css'>
-
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div class="container">
@@ -28,25 +28,36 @@
         to help you make any room feel complete.
       </div>
     </div>
-    <div class="container__footer">
-      <div class="container__footer--info">
-        <div class="footer__user">
-          <div class="footer__image">
-            <img src="/images/avatar-michelle.jpg" class="image__user">
-          </div>
-          <div class="footer__user--column">
-            <div class="footer__name">
-              Michelle Appleton
+    <div class="container__footer--hide hide">
+      <div class="container__footer">
+        <div class="container__footer--info">
+          <div class="footer__user">
+            <div class="footer__image">
+              <img src="/images/avatar-michelle.jpg" class="image__user">
             </div>
-            <div class="footer__date">
-              28 Jun 2020
+            <div class="footer__user--column">
+              <div class="footer__name">
+                Michelle Appleton
+              </div>
+              <div class="footer__date">
+                28 Jun 2020
+              </div>
             </div>
           </div>
         </div>
+        <div class="container__footer--button">
+          <img src="/images/icon-share.svg" alt="Share button" class="container__footer--button-icon">
+        </div>
       </div>
-      <div class="container__footer--button">
-        <img src="/images/icon-share.svg" alt="Share button" class="container__footer--button-icon">
+    </div>
+    <div class="share">
+      <div class="share__text">SHARE</div>
+      <div class="share__social-media">
+        <i class="fab fa-facebook-square" alt="Facebook share button" id="share__social-media--facebook"></i>
+        <i class="fab fa-twitter" alt="Twitter share button" id="share__social-media--twitter"></i>
+        <i class="fab fa-pinterest" alt="Pinterest share button" id="share__social-media--pinterest"></i>
       </div>
+      <div class="share__button"></div>
     </div>
   </div>
   <div class="attribution">
