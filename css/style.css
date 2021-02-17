@@ -144,6 +144,8 @@
     .share__container {
         position: relative;
         top: 25px;
+        left: 15px;
+        width: 90%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -156,13 +158,21 @@
     }
 
     .share__social-media {
-        border: 1px solid green;
+        position: relative;
+        bottom: 4px;
+        right: 17px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 33%;
+        height: 50%;
     }
 
     #share__social-media--facebook, 
     #share__social-media--twitter,
     #share__social-media--pinterest {
         color: white;
+        font-size: 22px;
     }
 
     /* ATTRIBUTION */
