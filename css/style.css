@@ -76,6 +76,12 @@
         flex-direction: column;
     }
 
+    .image__user {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
     .footer__name {
         color: hsl(217, 19%, 35%);
         font-weight: 700;
