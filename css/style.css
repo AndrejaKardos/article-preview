@@ -303,6 +303,16 @@
         width: 45px;
         height: 45px;
         border-radius: 50%;
+        margin: 0 15px 0 15px;
+    }
+
+    .footer__user--column {
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        justify-content: center;
+        align-content: center;
+        border: 1px solid green;
     }
 
     /* ATTRIBUTION */
