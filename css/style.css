@@ -213,6 +213,25 @@
         height: 900px;
     }
 
+    /* HEADER SECTION */
+
+    .container__image {
+        position: relative;
+        top: -20px;
+        overflow: hidden;
+        height: 300px;
+        width: 300px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 1px solid green;
+    }
+
+    .image__drawers {
+        width: 86vw;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
     /* ATTRIBUTION */
 
     .attribution { 
