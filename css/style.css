@@ -23,6 +23,10 @@
         border-radius: 10px;
     }
 
+    .container__desktop {
+        display: none;
+    }
+
     /* HEADER SECTION */
 
     .container__image {
@@ -224,6 +228,11 @@
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border: 1px solid green;
+    }
+
+    .container__desktop {
+        display: flex;
+        flex-direction: row;
     }
 
     .image__drawers {
