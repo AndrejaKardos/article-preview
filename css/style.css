@@ -234,7 +234,6 @@
         height: 300px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
-        border: 1px solid green;
     }
 
     .container__desktop {
@@ -263,15 +262,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 180px;
+        margin: 40px;
         border: 1px solid red;
     }
 
     .container__text--top {
         font-weight: 700;
         color: hsl(217, 16%, 41%);
-        font-size: 16px;
-        line-height: 23px;
-        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
     }
 
     .container__text--bottom {
