@@ -221,13 +221,15 @@
         height: 900px;
     }
 
+    .share__container {
+        display: none;
+    }
+
     /* HEADER SECTION */
 
     .container__image {
         position: relative;
         overflow: hidden;
-        height: 350px;
-        width: 350px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border: 1px solid green;
@@ -252,6 +254,8 @@
     .container__info {
         display: flex; 
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 
     /* TEXT SECTION */
@@ -277,7 +281,20 @@
         line-height: 25px;
         margin-top: 15px;
         font-weight: 500;
-        width: 77%;
+    }
+
+    /* FOOTER (IMAGE + INFO) SECTION */
+
+    .container__footer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border: 1px solid yellow;
+    }
+
+    .footer__user {
+        display: flex;
+        flex-direction: row;
     }
 
     /* ATTRIBUTION */
