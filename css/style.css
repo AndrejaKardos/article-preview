@@ -230,6 +230,8 @@
     .container__image {
         position: relative;
         overflow: hidden;
+        width: 600px;
+        height: 300px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border: 1px solid green;
@@ -239,14 +241,12 @@
         background-color: white;
         display: flex;
         flex-direction: row;
-        border: 1px solid blue;
-        width: 1000px;
+        width: 800px;
     }
 
     .image__drawers {
-        width: 25vw;
-        height: 25vw;
-        left: -50px;
+        width: 375px;
+        height: 300px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
