@@ -233,6 +233,16 @@
         display: none;
     } */
 
+    .share__container--row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 15px;
+        width: 80%;
+        border: 1px solid red;
+    }
+
     .share__container {
         background-color: hsl(217, 19%, 35%);
         display: flex;
@@ -257,6 +267,14 @@
         border-bottom: 0;
         margin-left: -9px;
         margin-bottom: -20px;
+    }
+
+    #share__social-media--facebook, 
+    #share__social-media--twitter,
+    #share__social-media--pinterest {
+        margin-left: 3px;
+        margin-right: 3px;
+        color: white;
     }
 
     /* HEADER SECTION */
