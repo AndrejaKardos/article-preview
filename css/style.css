@@ -312,10 +312,11 @@
     .footer__user--column {
         display: flex;
         flex-direction: column;
-        height: 50px;
-        justify-content: center;
+        height: 40px;
+        justify-content: space-around;
         align-content: center;
         border: 1px solid green;
+        margin-top: 2px;
     }
 
     .footer__name {
@@ -323,6 +324,10 @@
         color: hsl(217, 16%, 41%);
         letter-spacing: 0.03rem;
         font-size: 11px;
+    }
+
+    .footer__date {
+        color: hsl(214, 17%, 51%);
     }
 
     /* ATTRIBUTION */
