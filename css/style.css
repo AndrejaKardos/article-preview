@@ -3,7 +3,7 @@
 @media only screen and (max-width: 375px) {
     body {
         background-color: hsl(210, 32%, 90%);
-        font-family: 'Comfortaa', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-size: 13px;
         display: flex;
         flex-direction: column;
@@ -203,7 +203,7 @@
 
     body {
         background-color: white;
-        font-family: 'Comfortaa', sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-size: 13px;
         display: flex;
         flex-direction: column;
