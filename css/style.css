@@ -346,6 +346,12 @@
         border-radius: 50%;
     }
 
+    .container__footer--button-icon {
+        position: relative;
+        left: 7px;
+        top: 7px;
+    }
+
     /* ATTRIBUTION */
 
     .attribution { 
