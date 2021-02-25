@@ -339,7 +339,11 @@
     .container__footer--button {
         position: relative;
         left: 160px;
-        top: 15px;
+        top: 7px;
+        background-color: hsl(210, 46%, 95%);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
     }
 
     /* ATTRIBUTION */
