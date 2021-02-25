@@ -200,6 +200,7 @@
 /* DESKTOP DISPLAY */
 
 @media only screen and (min-width: 376px) {
+
     body {
         background-color: white;
         font-family: 'Comfortaa', sans-serif;
@@ -209,6 +210,9 @@
         justify-content: center;
         align-items: center;  
         height: 100vh;
+        width: 100vw;
+        margin: 0;
+        overflow: hidden;
     }
 
     .container {
@@ -218,7 +222,7 @@
         align-items: center;
         justify-content: center;
         width: 1440px;
-        height: 900px;
+        height: 750px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
@@ -232,8 +236,8 @@
     .container__image {
         position: relative;
         overflow: hidden;
-        width: 900px;
-        height: 325px;
+        width: 600px;
+        height: 250px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
@@ -242,13 +246,14 @@
         background-color: white;
         display: flex;
         flex-direction: row;
-        width: 800px;
+        width: 650px;
         border-radius: 10px;
     }
 
     .image__drawers {
-        width: 375px;
-        height: 325px;
+        width: 300px;
+        height: 250px;
+        max-height: 100%;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
@@ -265,23 +270,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 180px;
-        padding: 30px 40px 30px 40px;
+        padding: 20px 30px 20px 30px;
         border: 1px solid red;
     }
 
     .container__text--top {
         font-weight: 700;
         color: hsl(217, 16%, 41%);
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 17px;
+        line-height: 27px;
     }
 
     .container__text--bottom {
         color: hsl(214, 17%, 51%);
-        line-height: 27px;
-        font-size: 18px;
-        margin-top: 15px;
+        line-height: 23px;
+        margin-top: 5px;
         font-weight: 500;
     }
 
